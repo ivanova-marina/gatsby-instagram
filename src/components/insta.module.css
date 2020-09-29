@@ -1,0 +1,14 @@
+.insta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem -0.5rem;
+}
+.photo {
+    box-shadow: 0;
+    display: block;
+    margin: 0.5rem;
+    max-width: calc(33% - 1rem);
+    width: 120px;
+    transition: 200ms box-shadow linear;
+}
